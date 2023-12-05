@@ -29,7 +29,8 @@
 				"eamodio.gitlens",
 				"seatonjiang.gitmoji-vscode",
 				"oderwat.indent-rainbow",
-				"biomejs.biome"
+				"biomejs.biome",
+				"GitHub.vscode-github-actions"
 			]
 		}
 	},
