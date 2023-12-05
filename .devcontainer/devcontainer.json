@@ -1,0 +1,40 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/ubuntu
+{
+	"name": "sayoi341.moe",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {
+			"version": "21.3.0"
+		}
+	},
+	"forwardPorts": [
+		4321
+	],
+	"postCreateCommand": "/usr/local/share/nvm/versions/node/v21.3.0/bin/pnpm config set store-dir /.pnpm-store",
+	// Configure tool-specific properties.
+	// "customizations": {},
+	"runArgs": [
+		"--name",
+		"sayoi341.moe"
+	],
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"astro-build.astro-vscode",
+				"ms-azuretools.vscode-docker",
+				"withfig.fig",
+				"GitHub.copilot",
+				"eamodio.gitlens",
+				"seatonjiang.gitmoji-vscode",
+				"oderwat.indent-rainbow",
+				"biomejs.biome"
+			]
+		}
+	},
+	"containerEnv": {
+		"PNPM_HOME": "/pnpm"
+	},
+	"remoteUser": "root"
+}
