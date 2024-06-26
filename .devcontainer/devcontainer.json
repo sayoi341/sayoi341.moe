@@ -19,13 +19,12 @@
 			"extensions": [
 				"astro-build.astro-vscode",
 				"ms-azuretools.vscode-docker",
-				"withfig.fig",
 				"GitHub.copilot",
 				"eamodio.gitlens",
-				"seatonjiang.gitmoji-vscode",
 				"oderwat.indent-rainbow",
 				"biomejs.biome",
-				"GitHub.vscode-github-actions"
+				"GitHub.vscode-github-actions",
+				"adam-bender.commit-message-editor"
 			]
 		}
 	},
