@@ -14,7 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Install, build, and upload your site output
-        uses: withastro/action@v1
+        uses: withastro/action@v2
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
