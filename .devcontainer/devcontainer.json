@@ -2,14 +2,11 @@
 	"name": "sayoi341.moe",
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 	"features": {
-		"ghcr.io/devcontainers/features/node:1": {
-			"version": "21.5.0"
-		}
+		"ghcr.io/michidk/devcontainers-features/bun:1": {}
 	},
 	"forwardPorts": [
 		4321
 	],
-	"postCreateCommand": "$(which pnpm) i",
 	"runArgs": [
 		"--name",
 		"sayoi341.moe"
@@ -19,13 +16,12 @@
 			"extensions": [
 				"astro-build.astro-vscode",
 				"ms-azuretools.vscode-docker",
-				"withfig.fig",
 				"GitHub.copilot",
 				"eamodio.gitlens",
-				"seatonjiang.gitmoji-vscode",
 				"oderwat.indent-rainbow",
 				"biomejs.biome",
-				"GitHub.vscode-github-actions"
+				"GitHub.vscode-github-actions",
+				"adam-bender.commit-message-editor"
 			]
 		}
 	},
