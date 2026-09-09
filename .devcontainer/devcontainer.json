@@ -3,7 +3,7 @@
 	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {
-			"version": "22.3.0"
+			"version": "24.21.0"
 		}
 	},
 	"forwardPorts": [
